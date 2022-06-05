@@ -1,5 +1,5 @@
 # **Liliya Lapetsina** 
-![My photo](/liliya.jpg "It's me")
+![My photo](./liliya.jpg "It's me")
 ***
 ### ***Contacts***:
 
