@@ -1,0 +1,31 @@
+body {
+background-color: rgb(205, 235, 255);
+color: rgb(66, 86, 197);
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.stiker {
+width: 400px;
+border-radius: 28px;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.ls p {
+color: blueviolet;
+font-style: italic;
+}
+
+/* Box Model */
+.ls p {
+    background-color: coral;
+    padding: 15px
+    border: 7px solid brown;
+    margin: 20px;
+    border-bottom-style:playing
+}
+
+/* Box Model */
+. fgfg {
+    width: 80;
+}
