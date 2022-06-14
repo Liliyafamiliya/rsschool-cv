@@ -1,0 +1,99 @@
+.header {
+    background-color: rgb(126, 213, 226);
+    box-shadow: 5px 5px 15px cornflowerblue
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 60px;
+    color: rgb(48, 13, 87);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #441955;
+    background-color: rgb(176, 232, 241);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100px;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.link {
+    height: 50px;
+}
+
+#aboutMe {
+    margin-top: 110px;
+}
+
+.photo {
+    border-radius: 15%;
+    box-shadow: 5px 5px 10px cornflowerblue;
+}
+
+blockquote {
+    margin-top: 110px;
+    margin-left: 0px;
+    background-color: cadetblue;
+    color: #ffffff;
+    padding: 10px;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    width: 500px;
+    height: 80px;
+    border: 4px solid #7cbaec;
+    font-size: 16px;
+    text-align: center;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px cornflowerblue;
+    border-radius: 50px;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    box-shadow: 10px 10px 20px 10px rgb(28, 7, 29);
+}
+
+.picture {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px cornflowerblue;
+}
+
+.rslogo {
+    height: 85px;
+}
