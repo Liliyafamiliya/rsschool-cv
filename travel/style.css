@@ -1,0 +1,443 @@
+html {
+    scroll-behavior: smooth;
+    background: #E5E5E5;
+}
+
+button {
+    border: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    position: relative;
+    height: 90px;
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.logo-container {
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+
+.nav {
+    margin-right: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 42px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.login-button {
+    width: 103px;
+    height: 41px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-text {
+    width: 43px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#how-it-works {
+    background: url('./assets/img/header-bg.jpg');
+    background-size: cover;
+    height: 675px;
+    margin-top: -90px;
+    padding-top: 90px;
+}
+
+
+
+.recommendations {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 45px;
+    margin-top: 35px;
+}
+
+.search {
+    width: 830px;
+    height: 95px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-top: 45px;
+}
+
+.question {
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+}
+
+.start-button {
+    width: 228px;
+    height: 59px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.explore-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.explore-text-wrapper {
+    font-weight: 700;
+    font-size: 80px;
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+}
+
+#plan-your-trip {
+    background: #fff;
+    /* height: 520px; */
+    padding: 80px 130px 0px 130px;
+}
+
+.steps-text {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+
+.steps-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background: #F2785C;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.icon-text {
+    margin-top: 35px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.destinations-wrapper {
+    background: #fff;
+}
+
+.destination-text {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin-top: 0;
+    margin-left: 470px;
+    margin-bottom: 45px;
+    padding-top: 90px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    width: 2520px;
+    height: 1116px;
+    left: -540px;
+    position: relative;
+}
+
+.picture {
+    width: 800px;
+
+}
+
+
+
+.cutting {
+    overflow: hidden;
+
+}
+
+.spain-picture {
+    border-radius: 0 16px 16px 0;
+    order: 0
+}
+
+.japan-picture {
+    margin: 0 60px;
+    position: relative;
+    /*border-radius: 16px;*/
+}
+
+.usa-picture {
+    border-radius: 16px 0 0 16px;
+    position: relative;
+}
+
+.dots-slider {
+    margin-top: 20px;
+    margin-left: 680px;
+    display: flex;
+}
+
+.dot-faded {
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot-saturated {
+    width: 20px;
+    height: 20px;
+    background: #F2785C;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.find-button {
+    width: 228px;
+    height: 59px;
+    left: 607px;
+    top: 2172px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-left: 605px;
+    margin-top: 40px;
+}
+
+.arrow {
+    padding-right: 10px;
+}
+
+.text-picture {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 15px;
+    bottom: 45px;
+}
+
+.stories-wrapper {
+    background: #fff;
+}
+
+.message-stories-wrapper {
+    background: url(./assets/img/italy.jpg);
+    background-size: cover;
+    height: 1300px;
+    margin-bottom: -90px;
+    padding-bottom: 90px;
+}
+
+.veil {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.stories-title {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+    margin-top: 0;
+    margin-left: 552px;
+    /* margin-bottom: 45px; */
+    padding-top: 80px;
+}
+
+.stories-container {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 120px;
+    padding-right: 125px;
+    gap: 40px;
+
+}
+
+.foto-story {
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.message-title {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    color: #0D606F;
+    margin: 0 0 25px 0;
+}
+
+.message-story {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.see-button {
+    width: 228px;
+    height: 59px;
+    left: 608px;
+    top: 3574px;
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 608px;
+    margin-bottom: 50px;
+}
+
+
+
+.rs-git-logo {
+    height: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rs-git {
+    list-style: none;
+    display: flex;
+}
+
+.author {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.inst-youtube-twi {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 130px;
+}
