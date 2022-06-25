@@ -11,7 +11,9 @@ button:hover {
     cursor: pointer;
 }
 
-body, h1, h2 {
+body,
+h1,
+h2 {
     margin: 0px;
 }
 
@@ -39,7 +41,7 @@ a {
     padding: 0 120px;
 }
 
-.logo-container {
+.favicon {
     font-family: 'Magra';
     font-style: normal;
     font-weight: 600;
@@ -88,6 +90,7 @@ a {
     color: #FFFFFF;
 
 }
+
 /* --------------------👆👆👆 HEADER STYLES 👆👆👆--------------------------------------- */
 
 
@@ -372,7 +375,7 @@ a {
     color: #0D606F;
 }
 
-.see-button::before{
+.see-button::before {
     content: url('./assets/svg/arrow.svg');
     position: relative;
     left: -12px;
@@ -395,6 +398,7 @@ a {
     padding-top: 2px;
     padding-left: 15px;
 }
+
 /* --------------------👆👆👆 MAIN STYLES 👆👆👆--------------------------------------- */
 
 
@@ -442,4 +446,5 @@ a {
     transition: filter 2s;
     filter: invert(22%) sepia(97%) saturate(5618%) hue-rotate(240deg) brightness(87%) contrast(111%);
 }
+
 /* --------------------👆👆👆 FOOTER STYLES 👆👆👆--------------------------------------- */
